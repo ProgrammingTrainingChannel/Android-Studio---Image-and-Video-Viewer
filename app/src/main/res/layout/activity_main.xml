@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="nebiyou.imageandvideoviewer.MainActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="81dp">
+
+    <Button
+        android:id="@+id/btnplaysound"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnplaysound"
+        android:text="Play Sound" />
+
+    <Button
+        android:id="@+id/btnloadimage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnloadimage"
+        android:text="Load Image" />
+
+    <Button
+        android:id="@+id/btnplayvideo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnplayvideo"
+        android:text="Play Video" />
+</LinearLayout>
